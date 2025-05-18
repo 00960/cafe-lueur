@@ -123,6 +123,16 @@ footer {
     .gallery-grid img {
         height: 150px; /* スマホでは少し低めにする */
     }
+
+    .gallery-grid {
+        grid-template-columns: 1fr; /* スマホでは1列にする */
+    }
+    
+    .gallery-grid img {
+        height: auto; /* 自然な高さに */
+        aspect-ratio: 4 / 3; /* アスペクト比を揃える（モダンブラウザ対応） */
+        object-fit: cover;
+    }
 }
   
 /* フォームセクションのスタイル */
