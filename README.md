@@ -4,7 +4,7 @@ Café Lueur（カフェ・リュール）｜架空のカフェサイト
 職業訓練で学んだ HTML / CSS / JavaScript を活かして制作しました。
 
 🔗 公開URL
-https://00960.github.io/cafe-lue/
+https://00960.github.io/cafe-lueur/
 
 📸 ページ構成
 - ホーム（トップページ）
