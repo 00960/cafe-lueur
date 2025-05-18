@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    color: #333;
+    background-color: #fdfaf6;
+    line-height: 1.6;
+  }
+  
+  /* ヘッダー */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d9cfc1;
+    padding: 20px 40px;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #5c4438;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: #5c4438;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-list a:hover {
+    color: #9c7a6e;
+  }
+  
+  /* メインビジュアル（ヒーロー） */
+  .hero {
+    background-image: url("images/kris-atomic-3b2tADGAWnU-unsplash.jpg"); /* あとで画像入れる場所 */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  /* カフェ紹介セクション */
+  .about {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #5c4438;
+  }
+  
+  /* フッター */
+  footer {
+    background-color: #d9cfc1;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+
+  /* ハンバーガーボタン（初期状態は非表示） */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .hamburger span {
+    height: 3px;
+    background: #5c4438;
+    border-radius: 2px;
+  }
+  
+  /* メディアクエリでスマホ用に切り替え */
+  @media (max-width: 768px) {
+    .nav-list {
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      position: absolute;
+      top: 80px;
+      right: 20px;
+      background-color: #fdfaf6;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  
+    .nav-list.active {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  }
+  
