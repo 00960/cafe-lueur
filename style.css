@@ -119,6 +119,10 @@ footer {
     .hamburger {
       display: flex;
     }
+
+    .gallery-grid img {
+        height: 150px; /* スマホでは少し低めにする */
+    }
 }
   
 /* フォームセクションのスタイル */
