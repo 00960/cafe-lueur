@@ -236,3 +236,57 @@ button:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
+
+/* 制作実績セクション（.works） */
+.works {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.work-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.work-item h3 {
+    color: #5c4438;
+    margin-bottom: 10px;
+}
+
+.work-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.work-item p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.work-item a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #5c4438;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid #9c7a6e;
+    transition: all 0.3s ease;
+}
+
+.work-item a:hover {
+    color: #9c7a6e;
+    border-bottom: 2px solid transparent;
+}
+
+footer .credits {
+    font-size: 0.75rem;
+    color: #666;
+    margin-top: 10px;
+    line-height: 1.4;
+}
